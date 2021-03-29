@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@color/blue"
+        android:textAlignment="center"
+        android:id="@+id/toolbar"
+        android:elevation="20dp">
+
+        <TextView
+            android:fontFamily="@font/montserrat"
+            android:maxLines="1"
+            android:inputType="textPersonName"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Register"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            />
+        <ImageButton
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+
+            android:background="@drawable/ic_baseline_arrow_back_24"
+            >
+
+        </ImageButton>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_height="500dp">
+        <EditText
+            android:maxLines ="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="Name"
+            android:imeOptions="actionNext"
+            android:textSize="18sp"
+            >
+
+        </EditText>
+        <EditText
+            android:maxLines ="1"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="20dp"
+            android:hint="Age"
+            android:textSize="18sp"
+            >
+
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <EditText
+
+                android:maxLines ="1"
+                android:imeOptions="actionNext"
+                android:layout_width="240dp"
+                android:hint="Phone"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:inputType="phone"
+                android:layout_height="50dp">
+
+            </EditText>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+
+                android:fontFamily="@font/montserrat"
+                android:background="@color/blue"
+                android:text="Verify">
+
+            </Button>
+        </LinearLayout>
+
+        <EditText
+            android:maxLines ="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Current Occupation"
+            android:imeOptions="actionNext"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            >
+
+        </EditText>
+        <EditText
+            android:maxLines ="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Experience"
+            android:imeOptions="actionNext"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            >
+
+        </EditText>
+        <EditText
+            android:imeOptions="actionNext"
+        android:maxLines ="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Address"
+
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:text="Register"
+        android:fontFamily="@font/montserrat"
+        android:background="#004AAD"
+        android:layout_alignParentBottom="true">
+
+    </Button>
+
+
+
+</RelativeLayout>

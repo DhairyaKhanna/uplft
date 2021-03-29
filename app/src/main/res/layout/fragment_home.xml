@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Objective of Uplft:"
+                android:paddingLeft="12dp"
+                android:fontFamily="@font/montserrat_bols"
+                android:textSize="24sp">
+            </TextView>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Globalisation, Urbanisation and the search for better livelihood has led to an increase of
+migrant labourers. In some regions of India, three out of four households include a migrant.
+Migrant wage labourers seem to be among the worst hit from the lockdown. Employment
+among these dropped from an average of 12.8 crore in last fiscal to a mere 3.7 crore in April,
+which means that more than 9 crore people lost their livelihood in just about a month. This
+category includes workers and daily wage-earning labourers whose livelihood depends
+everyday on a functioning economy. The impact of migration of labourers and their
+households has a significant impact on the social, political and economic conditions of India.
+The main objective of uplft is to provide job opportunities to migrant works from various
+states of India. As we know, from states like Bihar, Uttar Pradesh, Chhattisgarh, Jharkhand,
+majority of the population, i.e, around 50-70%, migrate in the hope of finding job
+opportunities. Most workers take up jobs in construction companies while the rest, like textile
+companies, do freelancing. Uplft aims to provide a structured and organised system for
+providing jobs to such skilled workers. "
+                android:paddingLeft="12dp"
+                android:paddingBottom="10dp"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
